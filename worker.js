@@ -28,6 +28,6 @@ module.exports.start = function() {
     console.log('Connected to MongoDB'); 
     setInterval(function() {
       getData(db);
-    }, 30 * 1000);
+    }, 10 * 1000);
   });
 };

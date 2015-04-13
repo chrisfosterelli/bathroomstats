@@ -1,0 +1,16 @@
+{
+  "name": "bathroomstats",
+  "version": "1.0.0",
+  "description": "KIC Bathroom Statistics",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chris Foster (chris.james.foster@gmail.com)",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.12.3",
+    "mongodb": "^2.0.27",
+    "request": "^2.55.0"
+  }
+}

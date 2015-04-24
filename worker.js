@@ -9,8 +9,9 @@ var request = require('request');
 function getData(db) {
   var opts = { url : process.env.URL, json : true };
   request(opts, function(err, response, body) {
-    if (err || response.statusCode != 200) {
-      console.log('Couldn\'t fetch data', err, response.statusCode);
+    var status = response ? response.statusCode || 0;
+    if (err || status != 200) {
+      console.log('Couldn\'t fetch data', err, status);
       return;
     }
     var records = db.collection('records');

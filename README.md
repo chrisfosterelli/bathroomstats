@@ -5,6 +5,8 @@ This collects and displays statistics about the bathroom usage from the [Kamloop
 
 _Note: [Chad Fawcett](https://twitter.com/chadfawcett_10) has actually done all the hard work for this, I just steal his data._
 
+_This project is now archived._
+
 Usage
 -----
 
